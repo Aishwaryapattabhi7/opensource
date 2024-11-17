@@ -1,0 +1,5 @@
+x,y=map(int,input().split())
+arr=list(map(int,input().split()))
+num1=sum(z for z in arr if z % y!=0)
+num2=sum(z for z in arr if z% y==0)
+print(num2-num1)
